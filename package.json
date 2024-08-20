@@ -9,14 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tensorflow-models/coco-ssd": "^2.2.3",
+    "@tensorflow-models/handpose": "^0.1.0",
+    "@tensorflow/tfjs": "^4.20.0",
+    "autoprefixer": "^10.4.20",
+    "lodash": "^4.17.21",
+    "next": "14.2.5",
+    "party-js": "^2.2.0",
     "react": "^18",
+    "react-confetti": "^6.1.0",
     "react-dom": "^18",
-    "next": "14.2.5"
+    "react-webcam": "^7.2.0"
   },
   "devDependencies": {
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
     "eslint": "^8",
-    "eslint-config-next": "14.2.5"
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.10"
   }
 }
